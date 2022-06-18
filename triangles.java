@@ -13,6 +13,9 @@ public class triangles {
         int side2=input.nextInt();
         System.out.println("Enter side three: ");
         int side3=input.nextInt();
+        triangles(side1,side2,side3);
+    }
+    public static void  triangles(int side1, int side2, int side3){
         if (side1==side2 && side2==side3 && side1==side3){
             System.out.println("It is an Equilateral Triangle");
         }
